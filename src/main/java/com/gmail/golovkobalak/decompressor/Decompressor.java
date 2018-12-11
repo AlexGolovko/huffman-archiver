@@ -1,13 +1,11 @@
-package modul.two.Decompressor;
+package com.gmail.golovkobalak.Decompressor;
 
-import modul.two.Compressor.Bit;
+import com.gmail.golovkobalak.Compressor.Bit;
 
 import java.io.*;
 import java.util.HashMap;
 import java.util.Iterator;
 import java.util.Map;
-
-import static modul.two.Decompressor.DecompressionResult.newBuilder;
 
 public class Decompressor {
 
@@ -20,7 +18,7 @@ public class Decompressor {
 		Map dictionary = readDictionary(file);
 		reverseToTable(dictionary);
 		Iterator<Bit> bitIterator = getIterator(content);
-		Builder builder = newBuilder();
+		Builder builder = DecompressionResult.newBuilder();
 		builder.setFileName(file.getName().substring(0, file.getName().lastIndexOf('.')));
 		builder.setTable(table);
 		while (bitIterator.hasNext()) {

@@ -1,7 +1,4 @@
-package modul.two.Decompressor;
-
-import java.io.File;
-import java.util.LinkedList;
+package com.gmail.golovkobalak.Decompressor;
 
 class DecompressionResult {
 	private final String fileName;

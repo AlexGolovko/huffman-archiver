@@ -1,4 +1,4 @@
-package modul.two.Compressor;
+package com.gmail.golovkobalak.Compressor;
 
 public class Node {
 	private final int value;

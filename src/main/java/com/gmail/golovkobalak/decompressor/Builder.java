@@ -1,6 +1,6 @@
-package modul.two.Decompressor;
+package com.gmail.golovkobalak.Decompressor;
 
-import modul.two.Compressor.Bit;
+import com.gmail.golovkobalak.Compressor.Bit;
 
 import java.util.Iterator;
 import java.util.LinkedList;

@@ -1,4 +1,4 @@
-package modul.two.Compressor;
+package com.gmail.golovkobalak.Compressor;
 
 import java.util.ArrayList;
 

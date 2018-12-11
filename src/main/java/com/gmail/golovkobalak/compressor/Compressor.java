@@ -1,4 +1,4 @@
-package modul.two.Compressor;
+package com.gmail.golovkobalak.Compressor;
 
 import java.io.*;
 import java.util.Comparator;
@@ -6,7 +6,7 @@ import java.util.HashMap;
 import java.util.Map;
 import java.util.PriorityQueue;
 
-import static modul.two.Compressor.CompressionResult.newBuilder;
+import static com.gmail.golovkobalak.Compressor.CompressionResult.newBuilder;
 
 public class Compressor {
 
